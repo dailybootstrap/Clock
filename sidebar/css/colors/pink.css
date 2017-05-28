@@ -1,0 +1,17 @@
+
+.logo{color:#FF0099}
+#nav-bar li.active a{
+color:#FF0099;
+}
+.social i{  background: #FF0099;}
+.clock_body i{  border: 4px solid #FF0099;  color:#FF0099;}
+.single_service{  border:1px solid #FF0099}
+.title h1 {
+  color: #FF0099;
+}
+.team{
+border:1px solid #FF0099;
+}
+.con-btn{
+  background: #FF0099;
+  }
