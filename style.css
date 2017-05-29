@@ -291,7 +291,7 @@ textarea {
 
 body{
     color:#fff;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration:none!important;
@@ -344,7 +344,7 @@ color:#fff;
 }
 .logo{
   font-size: 80px;
-  font-family: 'Freestyle Script';
+    font-family: 'Poppins', sans-serif;
 }
 .logo span{
   padding: 10px;
@@ -401,7 +401,7 @@ font-size: 28px;
     font-size: 80px;
     font-weight: 300;
     line-height: 80px;
-    font-family: 'Open Sans Light';
+    font-family: 'Poppins', sans-serif;
 }
 .countdown p{
 font-size:14px;
@@ -425,7 +425,7 @@ display:block;
   font-size: 20px;
   letter-spacing: 8px;
   font-weight: 300;
-  font-family:'Roboto';
+    font-family: 'Poppins', sans-serif;
 }
 #home  h1{
 font-weight:700;
@@ -453,55 +453,6 @@ font-weight:700;
   line-height: 39px;
   margin: 4px;
   cursor:pointer;
-}
-
-
-/** navbar css**/
-
-.navbar-fixed-top {
-border-bottom: 1px solid rgba(255,255,255,.1);
-}
-.navbar-brand{
-  font-size: 29px;
-  font-weight: 300;
-  letter-spacing: 4px;
-  font-family:'Open Sans Light';
-  color: #fff;
-}
-.navbar-brand:hover{
-
-  color: #fff;
-}
-#nav-bar {
-margin:0;
-padding:0;
-text-align: right;
-}
-#nav-bar li{
-list-style:none;
-display:inline-block;
-  padding: 14px;
-}
-#nav-bar li a{
-color:#fff;
-font-size: 16px;
-font-weight:700;
-}
-
-.navbar-toggle{
-background:#ddd;
-}
-.navbar-toggle .icon-bar {
-  background-color: #888;
-}
-.navbar-collapse.in{
-text-align:center;
-}
-.navbar-collapse.in #nav-bar{
-}
-.navbar-collapse.in #nav-bar li{
-display:block;
-text-align:center;
 }
 
 /** services css**/
