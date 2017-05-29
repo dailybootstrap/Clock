@@ -289,21 +289,21 @@ textarea {
     }
 }
 
-body{color:#fff;  
-font-family:'Roboto', sans-serif;}
-a{text-decoration:none!important;}
-h1{font-weight:400;}
-.uppercase{text-transform:uppercase;}
-.justify{text-align:justify;}
-.content-index{}
-.overlay{
-background:rgba(0,0,0,0.8);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  padding-top:100px;
-  padding-bottom:160px;
+body{
+    color:#fff;
+    font-family:'Roboto', sans-serif;
+}
+a{
+    text-decoration:none!important;
+}
+h1{
+    font-weight:400;
+}
+.uppercase{
+    text-transform:uppercase;
+}
+.justify{
+    text-align:justify;
 }
 .padding{padding-top:50px;}
 .vertical{
@@ -329,11 +329,18 @@ color:#fff;
 /** home css**/
 
 
-#home {
-background: url(img/slider2.jpg);
-background-size:cover; 
-height:100%;
-width:100%;
+#section0 {
+    background: url(img/slider2.jpg);
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+.fp-tableCell{
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 .logo{
   font-size: 80px;
@@ -368,33 +375,33 @@ font-size: 28px;
   }
 .clock_bell{}
 .clock_bell img{
-  margin-top: 25px;
-  z-index: 1;
-  }
+    margin-top: 25px;
+    z-index: 1;
+}
 .countdown{}
 .countdown{margin:0; padding:0;}
 .countdown li{
-display:inline-block;
+    display:inline-block;
 
 }
 .countdown li.bell_separator{
-  vertical-align: top;
-  font-size: 24px;
-  margin: 24px;
-  padding-top: 4px;
+    vertical-align: top;
+    font-size: 24px;
+    margin: 24px;
+    padding-top: 4px;
 }
 .bell_separator i{ 
 
 
 }
 .countdown_item{
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .countdown span{  
-font-size: 80px;
-font-weight: 300;
-line-height: 80px;
-font-family: 'Open Sans Light';
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    font-family: 'Open Sans Light';
 }
 .countdown p{
 font-size:14px;
@@ -491,7 +498,6 @@ background:#ddd;
 text-align:center;
 }
 .navbar-collapse.in #nav-bar{
-background:#;
 }
 .navbar-collapse.in #nav-bar li{
 display:block;
@@ -517,7 +523,6 @@ background: rgba(0,0,0,0.7);
 .single_service .icon{
 font-size:26px;
 }
-.{}
 /** about css**/
 #about {
 background: url(img/slider4.jpg);
@@ -676,4 +681,5 @@ text-align:center;
   width: inherit;
   color: #fff;
 }
+
 
