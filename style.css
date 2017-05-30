@@ -343,8 +343,8 @@ color:#fff;
     right: 0;
 }
 .logo{
-  font-size: 80px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
 }
 .logo span{
   padding: 10px;
@@ -397,10 +397,10 @@ font-size: 28px;
 .countdown_item{
     padding-bottom: 30px;
 }
-.countdown span{  
-    font-size: 80px;
+.countdown span{
+    font-size: 48px;
     font-weight: 300;
-    line-height: 80px;
+    line-height: 60px;
     font-family: 'Poppins', sans-serif;
 }
 .countdown p{
