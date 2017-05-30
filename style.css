@@ -320,11 +320,7 @@ h1{
     width:100%;
 }
 .fp-tableCell{
-    background: rgba(0,0,0,0.8);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+
 }
 .logo{
     font-size: 60px;
