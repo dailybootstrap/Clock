@@ -306,26 +306,10 @@ h1{
     text-align:justify;
 }
 .padding{padding-top:50px;}
-.vertical{
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-.vertical-inner{
-  display: table-cell;
-  vertical-align: middle;
-} 
 .title{
-text-align:center;
-color:#fff;
+    text-align:center;
+    color:#fff;
 }
-.title h1{
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  text-align:center;
-  padding-bottom:20px;
-}
-
 /** home css**/
 
 
@@ -347,52 +331,52 @@ color:#fff;
     font-family: 'Kaushan Script', cursive;
 }
 .logo span{
-  padding: 10px;
+    padding: 10px;
+}
+.wrap-text h4{
+    font-size: 22px;
+    margin-bottom: 35px;
 }
 .clock{
-  height: 90px;
-  position: relative;
-  margin-top: 25px;
+      height: 90px;
+      position: relative;
+      margin-top: 25px;
 }
 .clock_body{
-position: absolute;
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  z-index: 3;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 3;
 }
 .clock_body i{
-font-size: 28px;
-  background: #cde6ff;
-  padding: 8px;
-  z-index: 2;
-  display: block;
-  margin: 0 auto;
-  width: 52px;
-  text-align: center;
-  border-radius: 50%;
-
-  }
+    font-size: 28px;
+    background: #cde6ff;
+    padding: 8px;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
+    width: 52px;
+    text-align: center;
+    border-radius: 50%;
+}
 .clock_bell{}
 .clock_bell img{
     margin-top: 25px;
     z-index: 1;
 }
-.countdown{}
-.countdown{margin:0; padding:0;}
+.countdown {
+    margin:0;
+    padding:0;
+}
 .countdown li{
     display:inline-block;
-
 }
 .countdown li.bell_separator{
     vertical-align: top;
     font-size: 24px;
     margin: 24px;
     padding-top: 4px;
-}
-.bell_separator i{ 
-
-
 }
 .countdown_item{
     padding-bottom: 30px;
@@ -404,75 +388,72 @@ font-size: 28px;
     font-family: 'Poppins', sans-serif;
 }
 .countdown p{
-font-size:14px;
-  font-weight: 300;
+    font-size:14px;
+    font-weight: 300;
 }
 .align{
-margin-left:0;
-width:100%;
-position:fixed;
-left:97%;
-  text-align: center;
-  list-style: none;
-  top: 35%;
+    margin-left:0;
+    width:100%;
+    position:fixed;
+    left:97%;
+    text-align: center;
+    list-style: none;
+    top: 35%;
 }
 .align li{
-display:block;
-
+    display:block;
 }
 #home .sub-heading{
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 8px;
-  font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }
-#home  h1{
-font-weight:700;
-  padding-top: 6px;
-}
 .social{  
-  position: fixed;
-  bottom: 40px;
-  left: 40px;
-  background: rgba(255,255,255,1);
-  z-index: 4;
-  width: 105px;
-  padding: 4px;
-  }
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    background: rgba(255,255,255,1);
+    z-index: 4;
+    width: 105px;
+    padding: 4px;
+}
 .social a{
-  display:block;
-  float:left;
-  }
+    display:block;
+    float:left;
+}
 .social i{
-  font-size: 20px;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 39px;
-  margin: 4px;
-  cursor:pointer;
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    margin: 4px;
+    cursor:pointer;
 }
 
 /** services css**/
 #services {
-background: url(img/slider1.jpg);
-background-size:cover; 
-height:100%;
-width:100%;
+    background: url(img/slider1.jpg);
+    background-size:cover;
+    height:100%;
+    width:100%;
 }
 #services .title{
-margin-bottom:50px;
+    margin-bottom:50px;
 }
-.all_services{text-align:center;}
+.all_services{
+    text-align:center;
+}
 .single_service{ 
- padding: 20px;
-background: rgba(0,0,0,0.7);
-  margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin-bottom: 30px;
 }
 .single_service .icon{
-font-size:26px;
+    font-size:26px;
 }
 /** about css**/
 #about {
