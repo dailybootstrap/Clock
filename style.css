@@ -327,6 +327,10 @@ h1{
     font-family: 'Kaushan Script', cursive;
     margin-bottom: 25px;
 }
+.logo img{
+    display: block;
+    margin: 0 auto;
+}
 .logo span{
     padding: 10px;
 }
@@ -338,6 +342,7 @@ h1{
     margin-bottom: 35px;
     line-height: 34px;
     font-weight: 400;
+    letter-spacing: 1px;
 }
 .clock{
       height: 90px;
@@ -373,15 +378,14 @@ h1{
 }
 .countdown li{
     display:inline-block;
+    margin: 24px 45px;
 }
-.countdown li.bell_separator{
-    vertical-align: top;
-    font-size: 24px;
-    margin: 24px;
-    padding-top: 4px;
-}
+
 .countdown_item{
     padding-bottom: 30px;
+}
+.countdown_item p{
+    text-transform: uppercase;
 }
 .countdown span{
     font-size: 48px;
