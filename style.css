@@ -327,8 +327,9 @@ h1{
     right: 0;
 }
 .logo{
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Kaushan Script', cursive;
+    margin-bottom: 25px;
 }
 .logo span{
     padding: 10px;
@@ -339,6 +340,8 @@ h1{
 .wrap-text h3{
     font-size: 22px;
     margin-bottom: 35px;
+    line-height: 34px;
+    font-weight: 400;
 }
 .clock{
       height: 90px;
