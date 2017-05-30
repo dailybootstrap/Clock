@@ -333,7 +333,10 @@ h1{
 .logo span{
     padding: 10px;
 }
-.wrap-text h4{
+.wrap-text {
+    text-align: center;
+}
+.wrap-text h3{
     font-size: 22px;
     margin-bottom: 35px;
 }
