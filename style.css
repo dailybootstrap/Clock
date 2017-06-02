@@ -469,39 +469,6 @@ height:100%;
 width:100%;
 }
 .about_us {padding-bottom:30px;}
-.our_team{}
-.our_team .title{padding-bottom:30px;}
-
-.team{
-  text-align: center;
-  background: rgba(0,0,0,0.7);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom:30px;
-}
-.team a{
-color: #fff;
-  font-size: 16px;
-  border: 1px solid #fff;
-  width: 35px;
-  display: inline-block;
-  line-height: 25px;
-  background: rgba(255,255,255,0.1);
-  }
-.team h4{
-  margin-bottom: 10px;
-}
-.team p{
-  margin-bottom: 15px;
-}
-.team img{
-  border-radius: 50%;
-  height: 50%;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 20px;
-  }
 
 
 
