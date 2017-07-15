@@ -6,10 +6,13 @@ $('.countdown').downCount({
 });
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        resize: false,
+        menu: '#menu',
+        anchors: ['Home', 'Contact'],
         sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Home', 'Contact']
+        navigationTooltips: ['Home', 'Contact'],
+        responsiveWidth: 1024
     });
 });
