@@ -98,10 +98,10 @@ textarea {
    ========================================================================== */
 
 
-   
-   /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
 
 /*
  * Image replacement
@@ -211,9 +211,9 @@ textarea {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -361,9 +361,9 @@ h2{
     letter-spacing: 1px;
 }
 .clock{
-      height: 90px;
-      position: relative;
-      margin-top: 25px;
+    height: 90px;
+    position: relative;
+    margin-top: 25px;
 }
 .clock_body{
     position: absolute;
@@ -440,7 +440,6 @@ h2{
 }
 .social a{
     display:inline-block;
-    float:left;
     font-size: 20px;
     color: #fff;
     width: 35px;
@@ -602,23 +601,101 @@ h2{
     #menu{
         display: block;
     }
+    .clock {
+        margin-top: 75px;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        list-style-type: none;
+        margin: 0;
+        padding-left: 10px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+    #menu li{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+
+    }
+    #menu li a{
+        color: #fff;
+        padding: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    #home{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .social {
+        right: auto;
+        position: relative;
+        bottom: auto;
+        text-align: center;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .wrap-text h3 {
+        font-size: 17px;
+        margin-bottom: 25px;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+    .wrap-text h3 br{
+        display: none;
+    }
+    .countdown li {
+        display: inline-block;
+        margin: 0;
+        padding: 10px 20px;
+
+    }
+    .countdown {
+        margin-bottom: 20px;
+    }
+    .countdown span {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .countdown_item {
+        padding-bottom: 0;
+    }
     .fp-section{
         height: auto !important;
     }
-    .contact_us, .left-side, .right-side {
+    .contact_us, .left-side, .right-side{
         height: auto;
     }
-    .left-side {
-        float: none;
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 70px;
+    .fp-responsive #mySection,
+    .fp-responsive #mySection .fp-slide,
+    .fp-responsive #mySection .fp-tableCell{
+        height: auto !important;
     }
-    .right-side {
+    .left-side, .right-side {
         float: none;
         width: 100%;
-        padding-top: 50px;
-        padding-bottom: 70px;
+        padding: 40px 15px 40px 15px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .subscribe-form h2 br{
+        display: none;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -627,7 +704,14 @@ h2{
 /*		Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
-
+    .subscribe-form .sub-btn {
+        outline: 0;
+        margin-left: 10px;
+    }
+    .subscribe-form .form-control {
+        padding: 10px 15px;
+        width: calc(100% - 60px);
+    }
 }
 
 /*		Wide Mobile Layout: 480px.  */
